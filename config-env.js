@@ -13,4 +13,5 @@ module.exports = {
     BOT_NUMBER:  process.env.BOT_NUMBER,
     GITHUB_USERNAME: username,
     GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN,
+    COMMAND_TYPE: process.env.COMMAND_TYPE || 'button'
 };
