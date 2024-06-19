@@ -30,7 +30,12 @@
       "required": true
     }   
 },
-
+"COMMAND_TYPE": { 
+  "description": "button or onbutton.",
+  "required": true
+    }   
+},
+  
      "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
